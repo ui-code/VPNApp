@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN App | theuicode.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="flex flex-row justify-center items-center h-screen">
+    <div class="container overflow-hidden">
+        <div class="flex flex-row justify-between px-6 app-bg-gray-1 pt-10 pb-44 app-rounded">
+            <button class="app-bg-blue h-12 rounded-2xl py-2 px-5 text-white"><i class="fa-solid fa-crown mr-2"></i> Go Premium</button>
+            <div class="w-12 h-12 app-bg-gray-2 rounded-2xl grid grid-rows-2 grid-cols-2 place-items-center p-2">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <div class="flex flex-row items-center justify-center -top-32 relative">
+            <div class="w-56 h-56 bg-white rounded-full items-center justify-center flex">
+                <div class="w-44 h-44 app-bg-gray-1 rounded-full flex justify-center items-center">
+                    <i class="fa-solid fa-power-off bg-white app-color-blue rounded-full p-10 power-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col -top-36 relative">
+            <div class="py-3 flex flex-row justify-center items-center">
+                <span class="app-color-gray-1 mr-2">Optimal location</span>
+                <i class="fa-solid fa-circle-question app-color-gray-1"></i>
+            </div>
+            <div class="flex flex-row items-center px-6 py-4 mx-6 rounded-xl border-slate-100 border-2">
+                <img class="h-5 mr-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/512px-Flag_of_Italy.svg.png" alt="">
+                <span class="text-xl font-semibold app-color-blue-2">Italy - Milan</span>
+                <i class="fa-solid fa-bolt app-color-yellow text-2xl ml-auto"></i>
+            </div>
+            <span class="text-center app-color-gray-1 py-5">- Or -</span>
+            <span class="text-center app-color-gray-1">Select location</span>
+            <div class="mb-4 mt-1 flex flex-row items-center px-6 py-4 mx-6 rounded-xl border-white app-bg-gray-1 border-2">
+                <img class="h-4 mr-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/512px-Flag_of_the_United_States.svg.png" alt="">
+                <span class="text-xl font-semibold app-color-blue-2">USA - New York</span>
+                <i class="fa-solid fa-chevron-down app-color-gray-2 text-sm ml-auto"></i>
+            </div> 
+            <div class="flex flex-row items-center justify-center mt-2">
+                <i class="fa-solid fa-lock app-color-gray-1 text-xl mr-2"></i>
+                <span class="app-color-gray-1 font-semibold text-xs mr-2">Best in-class</span>
+                <span class="app-color-blue font-semibold text-xs">AES 256-bit encryption</span>
+            </div>   
+        </div>
+    </div>
+</body>
+<link rel="stylesheet" href="style.css">
+</html>

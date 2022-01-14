@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background: #dde3f0;  
+}
+
+.container {
+    width: 350px;
+    height: 700px;
+    background: white;
+    border-radius: 50px;
+}
+
+div.dot {
+    width: 5px;
+    height: 5px;
+    background: #4071ff;
+    border-radius: 2px;
+}
+
+i.power-icon {
+    font-size: 2.5em;
+    box-shadow: 0 20px 25px 0px #4071ff54, 0 2px 0px 0px #4071ff10;
+}
+
+.app-bg-gray-1 {
+    background: #F7F7FC;
+}
+
+.app-bg-gray-2 {
+    background: #E5EAFC;
+}
+
+.app-bg-blue {
+    background: #4071FF;
+}
+
+.app-color-blue {
+    color: #4071FF;
+}
+
+.app-color-blue-2 {
+    color: #26357B;
+}
+
+.app-color-gray-1 {
+    color: #C0C6DE;
+}
+
+.app-color-gray-2 {
+    color: #9398AA;
+}
+
+.app-color-yellow {
+    color: #FF8A00;
+}
+
+.app-rounded {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
